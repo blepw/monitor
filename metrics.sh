@@ -26,8 +26,8 @@ check_packages
 
 notifications() {
     local message="$1"    
-    bot_token="6644169136:AAF6jmtB8m18t4iAzdT90HboK79aMMdoRlU"
-    USER_CHAT_ID="6242889743"
+    bot_token=""
+    USER_CHAT_ID=""
     TELEGRAM_API_URL="https://api.telegram.org/bot$bot_token/sendMessage"
     curl -X POST $TELEGRAM_API_URL -d chat_id=$USER_CHAT_ID -d text="$message" &>/dev/null # redirect both stdout and stderr
 }
