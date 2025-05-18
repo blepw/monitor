@@ -6,7 +6,9 @@ The first one gets various info and informs the administrator via telegram when 
 The second script logs all active connections and updates them.
 
 Todo :
-1 Fix notification frequency | 2 Use less functions to get metrics
+1 Fix notification frequency 
+2 Use less functions to get metrics
+3 Fix / optimize code 
 
 Run: 
 sudo bash metrics.sh && sudo bash network.sh
